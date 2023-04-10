@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body{
+    background-color: #16181d;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background-color: #33cb9a;
+    max-width: 800px;
+    padding: 20px;
+  }
+  
+  h1{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  form > div{
+    width: calc(33.33% - 10px);
+    margin-bottom: 10px;
+  }
+  
+  form label{
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  form input[type="number"]{
+     width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button[type="buttom"]{
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  #generateBtn{
+    size: 20px;
+    line-height: 3em;
+    font-weight: 200;
+  }
+  
+  button[type="button"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  #result {
+    display: none;
+    margin-top: 20px;
+  }
+  
+  #result h2{
+    margin-bottom: 10px;
+  }
+  
+  #numberList {
+    list-style: none;
+  }
+  
+  #numberList li {
+    margin-bottom: 5px;
+  }
+  
